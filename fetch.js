@@ -1,5 +1,5 @@
     let url = 'https://jsonplaceholder.typicode.com/users/';
-    fetch(url)
+    fetch( 'https://jsonplaceholder.typicode.com/users/')
         .then( response => response.json() )
         .then( data => mostrarData(data) )
         .catch( error => console.log(error) )
